@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "esModuleInterop": true,
+      "jsx": "react-jsx",
+      "target": "ES6",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "lib": ["ESNext", "DOM"],
+      "strictPropertyInitialization": false,
+      "downlevelIteration": true,
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules/**"]
+}

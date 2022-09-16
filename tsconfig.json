@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "ESNext",
+    "moduleResolution": "node",
+  },
+  "include": ["src/**/*", "scripts/rollup.ts"],
+  "exclude": ["node_modules/**"]
+}
