@@ -28,14 +28,10 @@ importers:
     specifiers:
       '@types/react': ^17
       '@types/react-dom': ^17
-      react: ^17.0.2
-      react-dom: ^17.0.2
       react-query: ^3.39.2
       typescript: ^4.6.4
     dependencies:
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-query: 3.39.2_sfoxds7t5ydpegc3knd667wn6m
+      react-query: 3.39.2
     devDependencies:
       '@types/react': 17.0.2
       '@types/react-dom': 17.0.2
@@ -201,6 +197,23 @@ packages:
       object-assign: 4.1.1
       react: 17.0.2
       scheduler: 0.20.2
+    dev: false
+
+  /react-query/3.39.2:
+    resolution: {integrity: sha512-F6hYDKyNgDQfQOuR1Rsp3VRzJnWHx6aRnnIZHMNGGgbL3SBgpZTDg8MQwmxOgpCAoqZJA+JSNCydF1xGJqKOCA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.19.0
+      broadcast-channel: 3.7.0
+      match-sorter: 6.3.1
     dev: false
 
   /react-query/3.39.2_sfoxds7t5ydpegc3knd667wn6m:
